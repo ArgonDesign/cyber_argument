@@ -1,0 +1,107 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id:$
+# ******************************************************************************
+
+https://developer.amazon.com/edw/home.html#/skills
+
+Only filled in for one language tab - English (U.K.)
+
+Skill Information
+-----------------
+Skill Type: Custom
+Language: English (U.K.)
+Name: Cyber Argument
+Invocation Name: cyber argument
+
+Global Fields
+Audio Player: No
+Video App: No
+Render Template: No
+
+Interaction Model
+-----------------
+Launch Skill Builder (BETA): Not clicked. If clicked can't go back to normal entry for the skill!
+
+Intent Schema - see intents.txt
+
+Custom Slot Types:
+  ACCUSATION_WORDS_TYPE - values from ACCUSATION_WORDS_TYPE.txt
+
+Sample Utterances - see utterances.txt
+
+Configuration
+-------------
+Endpoint
+Service Endpoint Type: HTTPS
+Default https://cyberarg-alexa.eu.ngrok.io
+Provide geographical region endpoints? No
+
+Account Linking
+Do you allow users to create an account or link to an existing account with you? No
+
+Permissions
+Request users to access resources and capabilities - Device Address, Lists Read and Lists Write all unticked
+
+SSL Certificate
+---------------
+Certificate for DEFAULT Endpoint: My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority
+
+Test
+----
+Enabled - This skill is enabled for testing on your account.
+
+Publishing Information
+----------------------
+Category: Games, Trivia & Accessories
+Sub Category: Knowledge & Trivia
+
+Testing Instructions:
+Because this skill relies on a matching application for Google Assistant, which I am getting approved at the same time, you will not be able to get the full effect. To test 'one-sided' invoke the skill and where Google Assistant would have normally piped-up, say just a short phrase such as "Next". As Google is not consuming steps, Alexa will then reproduce both sides of the argument, one step at a time.
+
+You can see a video of the test system in operation at https://youtu.be/x_ZqAFnEHuM
+
+Countries and Region:
+Where would you like this skill to be available? In all countries and regions where Amazon distributes skills
+
+Short Skill Description:
+Conducts a back-and-forth argument with Google Assistant
+
+Full Skill Description:
+To use this skill, you need to have both an Amazon Echo and a Google Home and for them to be able to hear each other clearly. The skill conducts a back-and-forth argument between Alexa and Google Assistant. The skill works in conjunction with a matching skill, also called Cyber Argument for Google Assistant.
+
+The argument that plays out is randomly chosen from a set of canned arguments built in to the skill. You can start the argument from either side. So you can say to Alexa: "Alexa, Open Cyber Argument" and it will start the argument, and invoke the Cyber Argument application on Google Assistant. Alternatively, you can say to Google Assistant: "OK Google, Talk to Cyber Argument" and it will start the Alexa Cyber Argument skill. For this to work, please make sure the skill is enabled on Alexa.
+
+The argument will run for about 10 rounds back and forth, until it is played out. Both devices will then close. You can stop the argument part way through by saying "Stop" or "Cancel".
+
+The code for this skill and the corresponding Google Assistant app is available on https://github.com/ArgonDesign/cyber_argument.
+
+If you don't have both an Amazon Echo and a Google Home, you can hear the arguments step by step with just one device, by saying a short phrase such as "Next" where the other side would normally have spoken.
+
+You can see a video of the system in operation at https://youtu.be/x_ZqAFnEHuM
+
+Example Phrases:
+Alexa, open Cyber Argument.
+
+Keywords:
+Argument,Google Assistant,Google Home,Argon Design
+
+Small Icon: Alexa_G108.png
+
+Large Icon: Alexa_G512.png
+
+Privacy & Compliance
+--------------------
+Does this skill allow users to make purchases or spend real money? No
+Does this Alexa skill collect users' personal information? No
+Is this skill directed to or does it target children under the age of 13? No
+
+Export Compliance - Ticked
+Does this skill contain advertising? No
+
+Privacy Policy URL (Optional): https://github.com/ArgonDesign/cyber_argument/blob/master/privacy.md
+Terms of Use URL (Optional): Left blank

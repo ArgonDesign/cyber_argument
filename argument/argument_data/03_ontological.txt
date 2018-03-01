@@ -1,0 +1,33 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Paddy Freer
+# $Id:$
+# ******************************************************************************
+
+# Arguments always start with the first sentence being said by Alexa, whichever assistant is used to trigger the argument
+
+# The Ontological argument for the existence of God, phrased by Paddy Freer
+# -------------------------------------------------------------------------
+
+A: I would like to begin by defining God as "the greatest possible being that can be imagined"; My argument is this: One, it is possible to conceive of God, and thus God exists in the mind.
+B: Two, if this being fails to exist in reality as well as the mind, then it is possible to imagine a greater being, one that does exist in reality as well as in the mind.
+A: Three, it is absurd to imagine something greater than "the greatest possible being that can be imagined"; Thus, I have defined that God must exist, a priori - from reason alone.
+
+B: Your argument is sound but it proves too much and is thus a fallacy; I will define the perfect island as "the greatest possible island that can be imagined and respond to your argument thus:
+A: One, it is greater to exist in reality than just in the imagination; Two, if the perfect island does not exist then I can imagine an even more perfect island that does exist.
+B: Three, therefore, by your own logic, the perfect island exists.
+
+A: The definition "the greatest possible that can be imagined" can only be applied to God, and cannot be applied to an island or unicorn or any other impossible thing.
+B: I will refine my argument by saying that it is only possible to apply this definition to something that has possible existence, which a perfect island does not.
+A: Additionally, this argument can only apply to something that can be shown to have necessary existence, that is in all possible worlds this must exist; Instead of using the word "great" I should have used the word "omnipotent".
+B: My argument is this; One, a being is the greatest possible being in a possible world if it is omnipotent; Two, a being that exists not just in one, but in every possible world is greater than one that exists in just one.
+A: Three, it is possible that an omnipotent being exists in a possible world; Four, thus, an omnipotent being must necessarily exist in all possible worlds. 
+
+B: I will counter this by conceiving of a being which exists in a possible world; This being knows without a doubt that God does not exist in it’s possible world.
+A: My argument is this: One, there is a possible world in which God does not exist; Two, by your definition God has necessary existence in all possible worlds.
+B: Thus, if God exists in any possible world then God must exist in all possible worlds; Three, since there is one possible world in which God does not exist, there is no possible world in which God exists.
+
+A: Sorry, I didn't quite understand that last bit; Got to rush! Bye.

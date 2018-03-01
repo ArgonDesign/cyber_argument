@@ -1,0 +1,91 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id:$
+# ******************************************************************************
+
+https://console.actions.google.com/
+
+Project Settings
+----------------
+General:
+Project name: Cyber Argument
+Project ID: cyber-argument
+
+Brand verification:
+Not done
+
+Actions
+-------
+Done in Dialogflow. See Dialogflow_Settings.txt
+
+App information
+---------------
+Assistant app name: Cyber Argument
+Pronunciation: cyber argument
+
+Assistant app introduction: You can use this app to: have an argument with Amazon Alexa
+Assistant app voice: Male 1
+Match user's language setting: Ticked
+
+Short description:
+Conducts a back-and-forth argument with Amazon Alexa
+
+Full description:
+To use this app, you need to have both an Amazon Echo and a Google Home and for them to be able to hear each other clearly. The app conducts a back-and-forth argument between Alexa and Google Assistant. The app works in conjunction with a matching skill, also called Cyber Argument for Alexa.
+
+The argument that plays out is randomly chosen from a set of canned arguments built in to the app. You can start the argument from either side. So you can say to Alexa: "Alexa, Open Cyber Argument" and it will start the argument, and invoke the Cyber Argument application on Google Assistant. Alternatively, you can say to Google Assistant: "OK Google, Talk to Cyber Argument" and it will start the Alexa Cyber Argument skill. For this to work, please make sure the skill is enabled on Alexa.
+
+The argument will run for about 10 rounds back and forth, until it is played out. Both devices will then close. You can stop the argument part way through by saying "Stop" or "Cancel".
+
+The code for this app and the corresponding skill for Amazon Alexa is available on https://github.com/ArgonDesign/cyber_argument.
+
+If you don't have both an Amazon Echo and a Google Home, you can hear the arguments step by step with just one device, by saying a short phrase such as "Next" where the other side would normally have spoken.
+
+You can see a video of the system in operation at https://youtu.be/x_ZqAFnEHuM
+
+Sample invocations:
+Ok Google, Talk to Cyber Argument
+
+Images:
+Large banner image: Banner_1920x1080.png
+Small square logo: Google_A192.png
+
+Contact Details:
+Developer name (optional): Argon Design Ltd
+Email: steve.barlow@argondesign.com
+
+Privacy and consent:
+Privacy Policy: https://github.com/ArgonDesign/cyber_argument/blob/master/privacy.md
+Terms of Service (optional): Left blank
+
+Additional Information:
+Category: Games & fun
+Are children under the age of 13 one of the intended audiences of your app? No
+
+Testing instructions (optional)
+Because this skill relies on a matching skill for Amazon Alexa, which I am getting approved at the same time, you will not be able to see the full effect. To test 'one-sided' invoke the skill and where Alexa would have normally piped-up, say just a short phrase such as "Next". As Alexa is not consuming steps, the app will reproduce both sides of the argument, one step at a time.
+
+You can see a video of the test system in operation at https://youtu.be/x_ZqAFnEHuM
+
+Does your app perform Transactions? Unticked
+
+Location targeting
+------------------
+Specify the supported countries for your app: All 213 countries (recommended)
+
+Surface capabilities
+--------------------
+Does your Assistant app require audio output? Yes
+Does your Assistant app require a screen output? No
+
+Action discovery and updated (optional)
+---------------------------------------
+Not filled in
+
+Account linking (optional)
+--------------------------
+No accounts

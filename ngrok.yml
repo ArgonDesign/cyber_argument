@@ -1,0 +1,19 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id: ngrok.yml 22575 2018-03-01 14:28:56Z sjb $
+# ******************************************************************************
+
+region: eu
+tunnels:
+  cyberarg_alexa:
+    proto: http
+    addr: 5010
+    subdomain: cyberarg-alexa
+  cyberarg_google:
+    proto: http
+    addr: 5011
+    subdomain: cyberarg-google

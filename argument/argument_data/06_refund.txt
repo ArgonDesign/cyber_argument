@@ -1,0 +1,36 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Olga Barlow
+# $Id:$
+# ******************************************************************************
+
+# Arguments always start with the first sentence being said by Alexa, whichever assistant is used to trigger the argument
+
+# A real world experience that I had recently after buying some trainers from the Nike Shop in London...
+
+Olga: Hello.
+Nike: Good morning; how can I help you madam?
+Olga: I bought some trainers from your store in Oxford Street last week; when I tried them on in the shop they seemed fine, but when I tried wearing them again at home, I thought the fit wasn't that great, so I'd like to return them.
+Nike: Yes OK, that's fine.
+Olga: As I don't live in London, can I post them to your store?
+Nike: You can certainly do that, but as you will not be returning the shoes in person, I'm afraid we can only issue a credit note. 
+Olga: What? But your assistant said: "You can always return them", and I just assumed that I'd get a refund!
+Nike: I'm afraid what I've said is true, we can only give you a credit note in this case.
+Olga: I would rather have my money refunded to my credit card as I don't know when I'm going to buy from you again, so I'd rather have the flexibility.
+Nike: I am sorry; it's the store policy I'm afraid.
+Olga: I am really not happy; Why do you make returns such a hassle? Other companies are quite happy to accept posted returns for a refund; I could then call you and give you my credit card number over the phone.
+Nike: We couldn't do that, that'd be considered fraud. 
+Olga: That'll teach me to not feel pressured into buying something by the charms of your sales staff. 
+Nike: We have highly trained and professional sales staff madam.
+Olga: Yeah, highly trained to get a sale; Is there really no better solution you can offer me?
+Nike: Well, you can take the shoes to one of our other branches; The nearest one from you is ... let me see... 29 miles away. But even in this case, they will only give you a credit note; It's the company policy, like I said. 
+Olga: Can I speak with your manager? 
+Nike: I can put you through to my manager, but she is only going to tell you the same thing; Refund only for returns in person.
+Olga: Do you understand what I'm telling you? My person doesn't live in London and I need to spend £50 on a train ticket in order to recover the £100 shoe cost; The numbers just don't add up; Can't you see that?
+Nike: Madam, I appreciate your frustration, but like I explained, the company policy is to give a refund only when the goods are returned to the store by the purchaser, and if you have the original receipt; If you can do that, we will reimburse your credit card. 
+Olga: By having a policy like that, you are making sure that I will never buy another pair of trainers from you again.
+Nike: We are completely transparent about our returns policy and this is common practice in the industry; You are welcome to come to the store with the unwanted pair and get a full refund.
+Olga: I am not sure I want to come into your store again; You've had my custom on many occasions in the past, but now I know what rubbish customer service you give, I will make a point of never buying anything by your brand; What a waste...

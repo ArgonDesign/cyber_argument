@@ -1,0 +1,25 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id:$
+# ******************************************************************************
+
+# Arguments always start with the first sentence being said by Alexa, whichever assistant is used to trigger the argument
+
+Girl (Alexa): Can I leave the table, please?
+Dad (Google): No. You've got to finish what's on your plate.
+Girl: But I've eaten everything except the broccoli.
+Dad: You have to finish the broccoli too.
+Girl: But it tastes horrible!
+Dad: It's good for you.
+Girl: It tastes like it's sat on a compost heap for a month and the stalks are as thick as trunks and like eating a slug.
+Dad: It is a very good source of dietary fiber, pantothenic acid, vitamin B6, vitamin E, manganese, phosphorus, choline, vitamin B1, vitamin A, potassium and copper.
+Girl: It will make me sick!
+Dad: It is also a good source of vitamin B1, magnesium, omega-3 fatty acids, protein, zinc, calcium, iron, niacin and selenium.
+Girl: Can I eat just this piece?
+Dad: No, you have to finish it all.
+Girl: But it tastes so bitter, as well as having a revolting texture and smelling like a rubbish dump.
+Dad: Don't fret, you can have Brussels sprouts tomorrow instead.

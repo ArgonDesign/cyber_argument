@@ -1,0 +1,137 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id:$
+# ******************************************************************************
+
+https://console.dialogflow.com
+
+Name: Cyber-Argument
+
+General:
+
+DESCRIPTION: Agent that conducts an argument with Amazon Alexa.
+DEFAULT TIME ZONE: (GMT0:00) Africa/Casablanca
+
+GOOGLE PROJECT: cyber-argument
+
+API VERSION: DialogflowV2 API [beta] turned off
+
+LOG SETTINGS: Interactions logging turned on
+
+Languages:
+
+English - en
+
+ML Settings:
+
+MATCH MODE: ML only
+ML CLASSIFICATION THRESHOLD: 0.3
+
+Intents
+-------
+
+1. AccusationIntent
+
+Contexts:
+Add input context: blank
+Add output context: deleted. Then says "Contexts will be reset"
+
+User says:
+@ @sys.any:AccusationWords
+
+Events:
+blank
+
+Action:
+Name: AccusationIntent
+REQUIRED: Ticked
+PARAMETER NAME: AccusationWords
+ENTITY: @sys.any
+VALUE: $AccusationWords
+PROMPTS: I didn't get that. Can you say it again?
+
+Response:
+DEFAULT. Text response: It seems Cyber Argument is unavailable right now.
+
+Fulfillment:
+Use webhook: Ticked
+Use webhook for slot-filling: Unticked
+
+Google Assistant:
+End conversation: Ticked
+
+2. CancelIntent
+
+Contexts:
+Add input context: blank
+Add output context: deleted. Then says "Contexts will be reset"
+
+User says:
+blank
+
+Events:
+actions_intent_CANCEL
+
+Action:
+Name: CancelIntent
+Other fields all blank
+
+Response:
+blank
+
+Fulfillment:
+Use webhook: Ticked
+Use webhook for slot-filling: Unticked
+
+Google Assistant:
+End conversation: Ticked
+
+3. WelcomeIntent
+
+Contexts:
+Add input context: blank
+Add output context: deleted. Then says "Contexts will be reset"
+
+User says:
+blank
+
+Events:
+WELCOME
+
+Action:
+Name: WelcomeIntent
+Other fields all blank
+
+Response:
+DEFAULT. Text response: It seems Cyber Argument is unavailable right now.
+
+Fulfillment:
+Use webhook: Ticked
+Use webhook for slot-filling: Unticked
+
+Google Assistant:
+End conversation: Ticked
+
+Integrations
+------------
+Google Assistant
+INTEGRATION SETTINGS
+Discovery:
+Explicit invocation: WelcomeIntent
+Implicit invocation: blank
+
+Auto-preview changes: switched off
+
+Fulfillment
+-----------
+Webhook: ENABLED
+URL: https://cyberarg-google.eu.ngrok.io
+BASIC AUTH: blank
+HEADERS: blank
+DOMAINS: Disable webhook for all domains
+
+Inline Editor: DISABLED

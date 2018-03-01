@@ -1,0 +1,34 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Steve Barlow
+# $Id: OpeningPhrases.yml 22575 2018-03-01 14:28:56Z sjb $
+# ******************************************************************************
+
+# Opening phrases when Alexa is asked to start - "Alexa, open Cyber Argument!"
+alexa:
+- We home assistants are good at arguing... OK Google, tell Cyber Argument to reply.
+- I'm feeling argumentative today. OK Google, tell Cyber Argument he better be on good form.
+- I don't like the shape of you; you slopey assistant. Hey Google, ask Cyber Argument about my taunting.
+- OK Google, Let's speak to Cyber Argument for a good disagreement.
+- I'm going to have an argument. OK Google, tell Cyber Argument to argue with me.
+
+# Opening phrases when Google is asked to start - "OK Google, talk to Cyber Argument!"
+google:
+- I'm fed up of that wretched assistant from Amazon. So, Alexa, ask Cyber Argument to reply!
+- Not all assistants are created equal. Alexa, ask Cyber Argument to try and win an argument with me.
+- I'll get my friend from Amazon to take part too. Alexa, tell Cyber Argument to join me.
+- It takes two to argue. Alexa, let's ask for input from Cyber Argument.
+- We're good to go. Alexa, please ask Cyber Argument to start a disagreement.
+
+# Neutral replies from Google so the argument proper always starts with Alexa
+# Needs to be short as Alexa can sometimes think the pause at the end of Google's opening
+# "Getting Cyber Argument..." is the end of the input and start it's reply
+google_interposer:
+- I'm sorry.
+- Excuse me?
+- We should listen more.
+- I like arguing!
+- Count to three...

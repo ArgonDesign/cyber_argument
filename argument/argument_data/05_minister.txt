@@ -1,0 +1,61 @@
+# ******************************************************************************
+# Argon Design Ltd. Project P9000 Argon
+# (c) Copyright 2018 Argon Design Ltd. All rights reserved.
+#
+# Module : cyber_argument
+# Author : Paddy Freer
+# $Id:$
+# ******************************************************************************
+
+# Arguments always start with the first sentence being said by Alexa, whichever assistant is used to trigger the argument
+
+A: Minister thanks for your time. 
+B: Good to be with you, Alexa.
+A: Minister this data breach of the civil service...
+B: The one affecting UK citizens?
+A: Yeah
+B: Well I would just like to make the point that this is extremely unusual. 
+A: How is this unusual?
+B: Well there are millions of civil service records and really this sort of thing hardly ever happens; I just don’t want the public to assume that their data is not safe.
+A: Was this data safe?
+B: Well I was thinking more about the rest of it.
+A: The safe bits?
+B: Yes, the data that hasn’t been breached yet.
+A: Well if this data wasn’t safe, why did it have millions of personal details about British citizens?
+B: I’m not saying it wasn’t safe, it is just not quite as safe as the rest of our data.
+A: Why?
+B: Well, some of the data is protected by security measures. 
+A: Wasn’t this data protected?
+B: Well obviously not, we know that because it was breached and the identities and banking details of millions of citizens was stolen; but that doesn’t change the general point that our sensitive data is protected by scrupulous security measures. 
+A: Such as?
+B: Well it isn’t allowed to be breached for a start.
+A: And what other things?
+B: Well there are strict standards about who we give the data out to and who is allowed to access it.
+A: For instance?
+B: Well no hackers, no criminals...
+A: And measures like encryption?
+B: Oh, naturally encryption, backups, and a minimum password length.
+A: What is the password length?
+B: Oh, one character I suppose. 
+A: So the allegation the government collects personal data without permission and makes no effort to protect this data is...
+B: Ludicrous!
+A: Ludicrous?
+B: Yes, our data vaults are impregnable and your information is very, very safe.
+A: So what happened?
+B: Well it got breached in this case, but that is very unusual. 
+A: But Minister, how did it get breached?
+B: Well in this particular instance it got Googled, but as I say it is unlikely to happen again.
+A: Googled?
+B: Yes, someone Googled for it.
+A: Is that unusual?
+B: On the Internet? Yeah, chance of one in a million.
+A: So what do you do to protect people’s identities in cases like this?
+B: Well we are on the lookout for any new people who claim to be other people.
+A: And how will you know? 
+B: This is precisely why we have collected all this personal data, now we know who people are in case there are more of them. 
+A: The data you recently lost?
+B: Precisely, now if anyone’s bank account gets accessed we can be sure who did it. 
+A: Thank you Minister, I am afraid we are out of time.
+B: Out of time? I don’t suppose you could book me a cab?
+A: Aren’t you a minister, can’t you claim one on expenses?
+B: Well yes, but someone accessed my personal and department accounts and cleaned them out.
