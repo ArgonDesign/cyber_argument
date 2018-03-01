@@ -1,7 +1,7 @@
 Cyber Argument
 ==============
 
-![Banner](Banner_1920x1080.png)
+![Banner](images/Banner_1920x1080.png)
 
 Cyber Argument is a skill for Amazon Alexa and an app for Google Assistant/Home that work together to have a back-and-forth argument between two devices. To use this code, you need to have both an Amazon Echo and a Google Home and for them to be able to hear each other clearly.
 
